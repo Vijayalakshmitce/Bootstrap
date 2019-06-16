@@ -17,14 +17,17 @@
 }
 .container-custom{
   background: #f6fafa;
-    border-color:#a1a3a3;
+    border-color:#65a3a3;
     width:960px;
     height:435px;
+    color: black;
+    font-weight: bold
 }
 .container1{
-    background:#a1a3a3;
-    box-sizing: border-box;
    
+    box-sizing: border-box;
+    
+    position: relative;
 }
 
 
@@ -45,4 +48,21 @@
  background: #4aaaa5;
     text-align: center;
     overflow:hidden;
+}
+
+body{
+    background-image: url("../images/back4.jpg");
+    box-sizing: border-box;
+    
+    position: relative;
+}
+
+.backcontainer{
+    background-image: url("../images/cont1.jpg");
+    box-sizing: border-box;
+    
+    position: relative;
+}
+.logo{
+    background: #666666;
 }
